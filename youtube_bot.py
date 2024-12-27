@@ -7,7 +7,7 @@ from PIL import Image
 
 # Set up bot token
 import os
-API_TOKEN = os.getenv("API_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(API_TOKEN)
 
 # Temporary directory for file handling
